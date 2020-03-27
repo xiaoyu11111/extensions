@@ -1,0 +1,852 @@
+{
+  "doctype": {
+  "prefix": "antd-doctype",
+  "body": [
+      "<!DOCTYPE>",
+      "$1"
+      ],
+  "description": "HTML - Defines the document type",
+  "scope": "html"
+  },
+  "a": {
+  "prefix": "antd-a",
+  "body": "<a href=\"$1\">$2</a>$3",
+  "description": "HTML - Defines a hyperlink",
+  "scope": "html"
+  },
+  "abbr": {
+  "prefix": "antd-abbr",
+  "body": "<abbr title=\"$1\">$2</abbr>$3",
+  "description": "HTML - Defines an abbreviation",
+  "scope": "html"
+  },
+  "address": {
+  "prefix": "antd-address",
+  "body": [
+      "<address>",
+      "$1",
+      "</address>"
+      ],
+  "description": "HTML - Defines an address element",
+  "scope": "html"
+  },
+  "area": {
+  "prefix": "antd-area",
+  "body": "<area shape=\"$1\" coords=\"$2\" href=\"$3\" alt=\"$4\">$5",
+  "description": "HTML - Defines an area inside an image map",
+  "scope": "html"
+  },
+  "article": {
+  "prefix": "antd-article",
+  "body": [
+      "<article>",
+      "\t$1",
+      "</article>"
+      ],
+  "description": "HTML - Defines an article",
+  "scope": "html"
+  },
+  "aside": {
+  "prefix": "antd-aside",
+  "body": [
+      "<aside>",
+      "\t$1",
+      "</aside>$2"
+      ],
+  "description": "HTML - Defines content aside from the page content",
+  "scope": "html"
+  },
+  "audio": {
+  "prefix": "antd-audio",
+  "body": [
+      "<audio controls>",
+      "\t$1",
+      "</audio>"
+      ],
+  "description": "HTML - Defines sounds content",
+  "scope": "html"
+  },
+  "b": {
+  "prefix": "antd-b",
+  "body": "<b>$1</b>$2",
+  "description": "HTML - Defines bold text",
+  "scope": "html"
+  },
+  "base": {
+  "prefix": "antd-base",
+  "body": "<base href=\"$1\" target=\"$2\">$3",
+  "description": "HTML - Defines a base URL for all the links in a page",
+  "scope": "html"
+  },
+  "bdi": {
+  "prefix": "antd-bdi",
+  "body": "<bdi>$1</bdi>$2",
+  "description": "HTML - Used to isolate text that is of unknown directionality",
+  "scope": "html"
+  },
+  "bdo": {
+  "prefix": "antd-bdo",
+  "body": [
+      "<bdo dir=\"$1\">",
+      "$2",
+      "</bdo>"],
+  "description": "HTML - Defines the direction of text display",
+  "scope": "html"
+  },
+  "big": {
+  "prefix": "antd-big",
+  "body": "<big>$1</big>$2",
+  "description": "HTML - Used to make text bigger",
+  "scope": "html"
+  },
+  "blockquote": {
+  "prefix": "antd-blockquote",
+  "body": [
+      "<blockquote cite=\"$2\">",
+      "\t$1",
+      "</blockquote>"
+      ],
+  "description": "HTML - Defines a long quotation",
+  "scope": "html"
+  },
+  "body": {
+  "prefix": "antd-body",
+  "body": [
+      "<body>",
+      "\t$1",
+      "</body>"],
+  "description": "HTML - Defines the body element",
+  "scope": "html"
+  },
+  "br": {
+  "prefix": "antd-br",
+  "body": "<br>",
+  "description": "HTML - Inserts a single line break",
+  "scope": "html"
+  },
+  "button": {
+  "prefix": "antd-button",
+  "body": "<button type=\"$1\">$2</button>$3",
+  "description": "HTML - Defines a push button",
+  "scope": "html"
+  },
+  "canvas": {
+  "prefix": "antd-canvas",
+  "body": "<canvas id=\"$1\">$2</canvas>$3",
+  "description": "HTML - Defines graphics",
+  "scope": "html"
+  },
+  "caption": {
+  "prefix": "antd-caption",
+  "body": "<caption>$1</caption>$2",
+  "description": "HTML - Defines a table caption",
+  "scope": "html"
+  },
+  "cite": {
+  "prefix": "antd-cite",
+  "body": "<cite>$1</cite>$2",
+  "description": "HTML - Defines a citation",
+  "scope": "html"
+  },
+  "code": {
+  "prefix": "antd-code",
+  "body": "<code>$1</code>$2",
+  "description": "HTML - Defines computer code text",
+  "scope": "html"
+  },
+  "col": {
+  "prefix": "antd-col",
+  "body": "<col>$2",
+  "description": "HTML - Defines attributes for table columns",
+  "scope": "html"
+  },
+  "colgroup": {
+  "prefix": "antd-colgroup",
+  "body": [
+      "<colgroup>",
+      "\t$1",
+      "</colgroup>"],
+  "description": "HTML - Defines group of table columns",
+  "scope": "html"
+  },
+  "command": {
+  "prefix": "antd-command",
+  "body": "<command>$1</command>$2",
+  "description": "HTML - Defines a command button [not supported]",
+  "scope": "html"
+  },
+  "datalist": {
+  "prefix": "antd-datalist",
+  "body": [
+      "<datalist>",
+      "\t$1",
+      "</datalist>"
+      ],
+  "description": "HTML - Defines a dropdown list",
+  "scope": "html"
+  },
+  "dd": {
+  "prefix": "antd-dd",
+  "body": "<dd>$1</dd>$2",
+  "description": "HTML - Defines a definition description",
+  "scope": "html"
+  },
+  "del": {
+  "prefix": "antd-del",
+  "body": "<del>$1</del>$2",
+  "description": "HTML - Defines deleted text",
+  "scope": "html"
+  },
+  "details": {
+  "prefix": "antd-details",
+  "body": [
+      "<details>",
+      "\t$1",
+      "</details>"
+      ],
+  "description": "HTML - Defines details of an element",
+  "scope": "html"
+  },
+  "dialog": {
+  "prefix": "antd-dialog",
+  "body": "<dialog>$1</dialog>$2",
+  "description": "HTML - Defines a dialog (conversation)",
+  "scope": "html"
+  },
+  "dfn": {
+  "prefix": "antd-dfn",
+  "body": "<dfn>$1</dfn>$2",
+  "description": "HTML - Defines a definition term",
+  "scope": "html"
+  },
+  "div": {
+  "prefix": "antd-div",
+  "body": [
+      "<div>",
+      "\t$1",
+      "</div>"
+      ],
+  "description": "HTML - Defines a section in a document",
+  "scope": "html"
+  },
+  "dl": {
+  "prefix": "antd-dl",
+  "body": [
+      "<dl>",
+      "\t$1",
+      "</dl>"
+      ],
+  "description": "HTML - Defines a definition list",
+  "scope": "html"
+  },
+  "dt": {
+  "prefix": "antd-dt",
+  "body": "<dt>$1</dt>$2",
+  "description": "HTML - Defines a definition term",
+  "scope": "html"
+  },
+  "em": {
+  "prefix": "antd-em",
+  "body": "<em>$1</em>$2",
+  "description": "HTML - Defines emphasized text",
+  "scope": "html"
+  },
+  "embed": {
+  "prefix": "antd-embed",
+  "body": "<embed src=\"$1\">$2",
+  "description": "HTML - Defines external interactive content ot plugin",
+  "scope": "html"
+  },
+  "fieldset": {
+  "prefix": "antd-fieldset",
+  "body": [
+      "<fieldset>",
+      "\t$1",
+      "</fieldset>"],
+  "description": "HTML - Defines a fieldset",
+  "scope": "html"
+  },
+  "figcaption": {
+  "prefix": "antd-figcaption",
+  "body": "<figcaption>$1</figcaption>$2",
+  "description": "HTML - Defines a caption for a figure",
+  "scope": "html"
+  },
+  "figure": {
+  "prefix": "antd-figure",
+  "body": [
+      "<figure>",
+      "\t$1",
+      "</figure>"
+      ],
+  "description": "HTML - Defines a group of media content, and their caption",
+  "scope": "html"
+  },
+  "footer": {
+  "prefix": "antd-footer",
+  "body": [
+      "<footer>",
+      "\t$1",
+      "</footer>"
+      ],
+  "description": "HTML - Defines a footer for a section or page",
+  "scope": "html"
+  },
+  "form": {
+  "prefix": "antd-form",
+  "body": [
+      "<form>",
+      "\t$1",
+      "</form>"
+      ],
+  "description": "HTML - Defines a form",
+  "scope": "html"
+  },
+  "h1": {
+  "prefix": "antd-h1",
+  "body": "<h1>$1</h1>$2",
+  "description": "HTML - Defines header 1",
+  "scope": "html"
+  },
+  "h2": {
+  "prefix": "antd-h2",
+  "body": "<h2>$1</h2>$2",
+  "description": "HTML - Defines header 2",
+  "scope": "html"
+  },
+  "h3": {
+  "prefix": "antd-h3",
+  "body": "<h3>$1</h3>$2",
+  "description": "HTML - Defines header 3",
+  "scope": "html"
+  },
+  "h4": {
+  "prefix": "antd-h4",
+  "body": "<h4>$1</h4>$2",
+  "description": "HTML - Defines header 4",
+  "scope": "html"
+  },
+  "h5": {
+  "prefix": "antd-h5",
+  "body": "<h5>$1</h5>$2",
+  "description": "HTML - Defines header 5",
+  "scope": "html"
+  },
+  "h6": {
+  "prefix": "antd-h6",
+  "body": "<h6>$1</h6>$2",
+  "description": "HTML - Defines header 6",
+  "scope": "html"
+  },
+  "head": {
+  "prefix": "antd-head",
+  "body": [
+      "<head>",
+      "\t$1",
+      "</head>"
+      ],
+  "description": "HTML - Defines information about the document",
+  "scope": "html"
+  },
+  "header": {
+  "prefix": "antd-header",
+  "body": [
+      "<header>",
+      "\t$1",
+      "</header>"
+      ],
+  "description": "HTML - Defines a header for a section of page",
+  "scope": "html"
+  },
+  "hgroup": {
+  "prefix": "antd-hgroup",
+  "body": [
+      "<hgroup>",
+      "\t$1",
+      "</hgroup>"
+      ],
+  "description": "HTML - Defines information about a section in a document",
+  "scope": "html"
+  },
+  "hr": {
+  "prefix": "antd-hr",
+  "body": "<hr>",
+  "description": "HTML - Defines a horizontal rule",
+  "scope": "html"
+  },
+  "html": {
+  "prefix": "antd-html",
+  "body": [
+      "<html>",
+      "\t$1",
+      "</html>"
+      ],
+  "description": "HTML - Defines an html document",
+  "scope": "html"
+  },
+  "html5": {
+  "prefix": "antd-html5",
+  "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"$1en\">",
+      "\t<head>",
+      "\t\t<title>$2</title>",
+      "\t\t<meta charset=\"UTF-8\">",
+      "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "\t\t<link href=\"$3css/style.css\" rel=\"stylesheet\">",
+      "\t</head>",
+      "\t<body>",
+      "\t$4",
+      "\t</body>",
+      "</html>"
+      ],
+  "description": "HTML - Defines a template for a html5 document",
+  "scope": "html"
+  },
+  "i": {
+  "prefix": "antd-i",
+  "body": "<i>$1</i>$2",
+  "description": "HTML - Defines italic text",
+  "scope": "html"
+  },
+  "iframe": {
+  "prefix": "antd-iframe",
+  "body": "<iframe src=\"$1\">$2</iframe>$3",
+  "description": "HTML - Defines an inline sub window",
+  "scope": "html"
+  },
+  "img": {
+  "prefix": "antd-img",
+  "body": "<img src=\"$1\" alt=\"$2\">$3",
+  "description": "HTML - Defines an image",
+  "scope": "html"
+  },
+  "input": {
+  "prefix": "antd-input",
+  "body": "<input type=\"$1\" name=\"$2\" value=\"$3\">$4",
+  "description": "HTML - Defines an input field",
+  "scope": "html"
+  },
+  "ins": {
+  "prefix": "antd-ins",
+  "body": "<ins>$1</ins>$2",
+  "description": "HTML - Defines inserted text",
+  "scope": "html"
+  },
+  "keygen": {
+  "prefix": "antd-keygen",
+  "body": "<keygen name=\"$1\">$2",
+  "description": "HTML - Defines a generated key in a form",
+  "scope": "html"
+  },
+  "kbd": {
+  "prefix": "antd-kbd",
+  "body": "<kbd>$1</kbd>$2",
+  "description": "HTML - Defines keyboard text",
+  "scope": "html"
+  },
+  "label": {
+  "prefix": "antd-label",
+  "body": "<label for=\"$1\">$2</label>$3",
+  "description": "HTML - Defines an inline window",
+  "scope": "html"
+  },
+  "legend": {
+  "prefix": "antd-legend",
+  "body": "<legend>$1</legend>$2",
+  "description": "HTML - Defines a title in a fieldset",
+  "scope": "html"
+  },
+  "li": {
+  "prefix": "antd-li",
+  "body": "<li>$1</li>$2",
+  "description": "HTML - Defines a list item",
+  "scope": "html"
+  },
+  "link": {
+  "prefix": "antd-link",
+  "body": "<link rel=\"$1\" type=\"$2\" href=\"$3\">$4",
+  "description": "HTML - Defines a resource reference",
+  "scope": "html"
+  },
+  "main": {
+  "prefix": "antd-main",
+  "body": [
+      "<main>",
+      "\t$1",
+      "</main>"
+  ],
+  "description": "HTML - Defines an image map",
+  "scope": "html"
+  },
+  "map": {
+  "prefix": "antd-map",
+  "body": [
+      "<map name=\"$1\">",
+      "\t$2",
+      "</map>"],
+  "description": "HTML - Defines an image map",
+  "scope": "html"
+  },
+  "mark": {
+  "prefix": "antd-mark",
+  "body": "<mark>$1</mark>$2",
+  "description": "HTML - Defines marked text",
+  "scope": "html"
+  },
+  "menu": {
+  "prefix": "antd-menu",
+  "body": [
+      "<menu>",
+      "\t$1",
+      "</menu>"
+      ],
+  "description": "HTML - Defines a menu list",
+  "scope": "html"
+  },
+  "menuitem": {
+  "prefix": "antd-menuitem",
+  "body": "<menuitem>$1</menuitem>$2",
+  "description": "HTML - Defines a menu item [firefox only]",
+  "scope": "html"
+  },
+  "meta": {
+  "prefix": "antd-meta",
+  "body": "<meta name=\"$1\" content=\"$2\">$3",
+  "description": "HTML - Defines meta information",
+  "scope": "html"
+  },
+  "meter": {
+  "prefix": "antd-meter",
+  "body": "<meter value=\"$1\">$2</meter>$3",
+  "description": "HTML - Defines measurement within a predefined range",
+  "scope": "html"
+  },
+  "nav": {
+  "prefix": "antd-nav",
+  "body": [
+      "<nav>",
+      "\t$1",
+      "</nav>"
+      ],
+  "description": "HTML - Defines navigation links",
+  "scope": "html"
+  },
+  "noscript": {
+  "prefix": "antd-noscript",
+  "body": [
+      "<noscript>",
+      "$1",
+      "</noscript>"
+      ],
+  "description": "HTML - Defines a noscript section",
+  "scope": "html"
+  },
+  "object": {
+  "prefix": "antd-object",
+  "body": "<object width=\"$1\" height=\"$2\" data=\"$3\">$4</object>$5",
+  "description": "HTML - Defines an embedded object",
+  "scope": "html"
+  },
+  "ol": {
+  "prefix": "antd-ol",
+  "body": [
+      "<ol>",
+      "\t$1",
+      "</ol>"
+      ],
+  "description": "HTML - Defines an ordered list",
+  "scope": "html"
+  },
+  "optgroup": {
+  "prefix": "antd-optgroup",
+  "body": [
+      "<optgroup>",
+      "\t$1",
+      "</optgroup>"
+      ],
+  "description": "HTML - Defines an option group",
+  "scope": "html"
+  },
+  "option": {
+  "prefix": "antd-option",
+  "body": "<option value=\"$1\">$2</option>$3",
+  "description": "HTML - Defines an option in a drop-down list",
+  "scope": "html"
+  },
+  "output": {
+  "prefix": "antd-output",
+  "body": "<output name=\"$1\" for=\"$2\">$3</output>$4",
+  "description": "HTML - Defines some types of output",
+  "scope": "html"
+  },
+  "p": {
+  "prefix": "antd-p",
+  "body": "<p>$1</p>$2",
+  "description": "HTML - Defines a paragraph",
+  "scope": "html"
+  },
+  "param": {
+  "prefix": "antd-param",
+  "body": "<param name=\"$1\" value=\"$2\">$3",
+  "description": "HTML - Defines a parameter for an object",
+  "scope": "html"
+  },
+  "pre": {
+  "prefix": "antd-pre",
+  "body": [
+      "<pre>$1</pre>"
+      ],
+  "description": "HTML - Defines preformatted text",
+  "scope": "html"
+  },
+  "progress": {
+  "prefix": "antd-progress",
+  "body": "<progress value=\"$1\" max=\"$2\">$3</progress>$4",
+  "description": "HTML - Defines progress of a task of any kind",
+  "scope": "html"
+  },
+  "q": {
+  "prefix": "antd-q",
+  "body": "<q>$1</q>$2",
+  "description": "HTML - Defines a short quotation",
+  "scope": "html"
+  },
+  "rp": {
+  "prefix": "antd-rp",
+  "body": "<rp>$1</rp>$2",
+  "description": "HTML - Used in ruby annotations to define what to show browsers that do not support the ruby element",
+  "scope": "html"
+  },
+  "rt": {
+  "prefix": "antd-rt",
+  "body": "<rt>$1</rt>$2",
+  "description": "HTML - Defines explanation to ruby annotations",
+  "scope": "html"
+  },
+  "ruby": {
+  "prefix": "antd-ruby",
+  "body": [
+      "<ruby>",
+      "$1",
+      "</ruby>"
+      ],
+  "description": "HTML - Defines ruby annotations",
+  "scope": "html"
+  },
+  "s": {
+  "prefix": "antd-s",
+  "body": "<s>$1</s>$2",
+  "description": "HTML - Used to define strikethrough text",
+  "scope": "html"
+  },
+  "samp": {
+  "prefix": "antd-samp",
+  "body": "<samp>$1</samp>$2",
+  "description": "HTML - Defines sample computer code",
+  "scope": "html"
+  },
+  "script": {
+  "prefix": "antd-script",
+  "body": [
+      "<script>",
+      "\t$1",
+      "</script>"
+      ],
+  "description": "HTML - Defines a script",
+  "scope": "html"
+  },
+  "scriptsrc": {
+  "prefix": "antd-scriptsrc",
+  "body": [
+      "<script src=\"$1\"></script>"
+      ],
+  "description": "HTML5 - Defines URI of an external script",
+  "scope": "html"
+  },
+  "section": {
+  "prefix": "antd-section",
+  "body": [
+      "<section>",
+      "\t$1",
+      "</section>"
+      ],
+  "description": "HTML - Defines a section",
+  "scope": "html"
+  },
+  "select": {
+  "prefix": "antd-select",
+  "body": [
+      "<select>",
+      "\t$1",
+      "</select>"
+      ],
+  "description": "HTML - Defines a selectable list",
+  "scope": "html"
+  },
+  "small": {
+  "prefix": "antd-small",
+  "body": "<small>$1</small>$2",
+  "description": "HTML - Defines small text",
+  "scope": "html"
+  },
+  "source": {
+  "prefix": "antd-source",
+  "body": "<source src=\"$1\" type=\"$2\">$3",
+  "description": "HTML - Defines media resource",
+  "scope": "html"
+  },
+  "span": {
+  "prefix": "antd-span",
+  "body": "<span>$1</span>$2",
+  "description": "HTML - Defines a section in a document",
+  "scope": "html"
+  },
+  "strong": {
+  "prefix": "antd-strong",
+  "body": "<strong>$1</strong>$2",
+  "description": "HTML - Defines strong text",
+  "scope": "html"
+  },
+  "style": {
+  "prefix": "antd-style",
+  "body": [
+      "<style>",
+      "$1",
+      "</style>"
+      ],
+  "description": "HTML - Defines a style definition",
+  "scope": "html"
+  },
+  "sub": {
+  "prefix": "antd-sub",
+  "body": "<sub>$1</sub>$2",
+  "description": "HTML - Defines sub-scripted text",
+  "scope": "html"
+  },
+  "sup": {
+  "prefix": "antd-sup",
+  "body": "<sup>$1</sup>$2",
+  "description": "HTML - Defines supeantd-scripted text",
+  "scope": "html"
+  },
+  "summary": {
+  "prefix": "antd-summary",
+  "body": "<summary>$1</summary>$2",
+  "description": "HTML - Defines a visible heading for the detail element [limited support]",
+  "scope": "html"
+  },
+  "table": {
+  "prefix": "antd-table",
+  "body": [
+      "<table>",
+      "\t$1",
+      "</table>"
+      ],
+  "description": "HTML - Defines a table",
+  "scope": "html"
+  },
+  "tbody": {
+  "prefix": "antd-tbody",
+  "body": [
+      "<tbody>",
+      "\t$1",
+      "</tbody>"
+      ],
+  "description": "HTML - Defines a table body",
+  "scope": "html"
+  },
+  "td": {
+  "prefix": "antd-td",
+  "body": "<td>$1</td>$2",
+  "description": "HTML - Defines a table cell",
+  "scope": "html"
+  },
+  "textarea": {
+  "prefix": "antd-textarea",
+  "body": "<textarea rows=\"$1\" cols=\"$2\">$3</textarea>$4",
+  "description": "HTML - Defines a text area",
+  "scope": "html"
+  },
+  "tfoot": {
+  "prefix": "antd-tfoot",
+  "body": [
+      "<tfoot>",
+      "\t$1",
+      "</tfoot>"
+      ],
+  "description": "HTML - Defines a table footer",
+  "scope": "html"
+  },
+  "thead": {
+  "prefix": "antd-thead",
+  "body": [
+      "<thead>",
+      "$1",
+      "</thead>"
+      ],
+  "description": "HTML - Defines a table head",
+  "scope": "html"
+  },
+  "th": {
+  "prefix": "antd-th",
+  "body": "<th>$1</th>$2",
+  "description": "HTML - Defines a table header",
+  "scope": "html"
+  },
+  "time": {
+  "prefix": "antd-time",
+  "body": "<time datetime=\"$1\">$2</time>$3",
+  "description": "HTML - Defines a date/time",
+  "scope": "html"
+  },
+  "title": {
+  "prefix": "antd-title",
+  "body": "<title>$1</title>$2",
+  "description": "HTML - Defines the document title",
+  "scope": "html"
+  },
+  "tr": {
+  "prefix": "antd-tr",
+  "body": "<tr>$1</tr>$2",
+  "description": "HTML - Defines a table row",
+  "scope": "html"
+  },
+  "track": {
+  "prefix": "antd-track",
+  "body": "<track src=\"$1\" kind=\"$2\" srclang=\"$3\" label=\"$4\">$5",
+  "description": "HTML - Defines a table row",
+  "scope": "html"
+  },
+  "u": {
+  "prefix": "antd-u",
+  "body": "<u>$1</u>$2",
+  "description": "HTML - Used to define underlined text",
+  "scope": "html"
+  },
+  "ul": {
+  "prefix": "antd-ul",
+  "body": [
+      "<ul>",
+      "\t$1",
+      "</ul>"
+      ],
+  "description": "HTML - Defines an unordered list",
+  "scope": "html"
+  },
+  "var": {
+  "prefix": "antd-var",
+  "body": "<var>$1</var>$2",
+  "description": "HTML - Defines a variable",
+  "scope": "html"
+  },
+  "video": {
+  "prefix": "antd-video",
+  "body": [
+      "<video width=\"$1\" height=\"$2\" controls>",
+      "\t$3",
+      "</video>"],
+  "description": "HTML - Defines a video",
+  "scope": "html"
+  }
+}

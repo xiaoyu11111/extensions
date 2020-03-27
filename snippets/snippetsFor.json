@@ -1,0 +1,18 @@
+{
+  "importClass": {
+    "prefix": "xy-class",
+    "body": [
+      "import React, { Component } from 'react';\n\nclass ${1} extends Component {\n  constructor(props) {\n    super(props);\n    this.state = { variable: 0 };\n  }\n\n  render() {\n    return (\n      <div>\n      ${2}\n      </div>\n    );\n  }\n}\n\nexport default ${1};\n\n${1}.propTypes = {\n};"
+        ],
+    "description": "import",
+    "scope": "html"
+    },
+  "importReact": {
+  "prefix": "xy-importReact",
+  "body": [
+      "import react, {Component} from 'React'"
+      ],
+  "description": "import",
+  "scope": "html"
+  }
+}
